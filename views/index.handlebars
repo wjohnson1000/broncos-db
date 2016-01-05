@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html>
+  <div class='players'>
+  <h1>Broncos Roster</h1>
+  {{#each players}}
+    <h3>{{player_name}}</h3>
+    <p>Number {{jersey_number}}</p>
+  {{/each}}
+  </div>
+  <form class="gm" action="index.html" method="post">
+    <label for="name">GM: <input type="text" name="name" value=""></label>
+    <label for="password">Password<input type="text" name="password" value=""></label>
+    <input type="submit" name="submit" value="Sign In">
+  </form>
+</html>

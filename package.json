@@ -1,0 +1,20 @@
+{
+  "name": "broncos-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "handlebars": "^4.0.5",
+    "knex": "^0.9.0",
+    "nodemon": "^1.8.1",
+    "passport": "^0.3.2",
+    "pg": "^4.4.3"
+  }
+}
